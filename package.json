@@ -9,7 +9,7 @@
   "keywords": [],
   "husky": {
     "hooks": {
-      "pre-commit": "CI=true tsc"
+      "pre-commit": "tsc --noEmit && lint-staged"
     }
   },
   "author": "",
