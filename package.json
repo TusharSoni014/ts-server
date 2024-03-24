@@ -7,12 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
   "husky": {
     "hooks": {
-      "pre-commit": "tsc"
+      "pre-commit": "CI=true tsc"
     }
   },
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/express": "^4.17.21",
