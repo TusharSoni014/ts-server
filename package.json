@@ -8,9 +8,10 @@
   },
   "keywords": [],
   "husky": {
-    "hooks": {
-      "pre-commit": "tsc --noEmit && lint-staged"
-    }
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "**/*.ts": "tsc-files --noEmit"
   },
   "author": "",
   "license": "ISC",
