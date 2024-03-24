@@ -7,7 +7,6 @@ const express_1 = __importDefault(require("express"));
 const userRoute_1 = require("./routes/userRoute");
 const app = (0, express_1.default)();
 app.use("/user", userRoute_1.userRouter);
-console.log("this is a test");
 app.listen(4000, () => {
     console.log("http://localhost:4000");
 });
